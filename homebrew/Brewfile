@@ -1,0 +1,108 @@
+## Tap in
+tap "homebrew/cask-versions"
+tap "homebrew/cask-fonts"
+tap "buo/cask-upgrade"
+
+## Install mas for managing Mac App Store applications
+brew "mas"
+
+## Brew/CLI Tools
+## 'brew install'
+brew "ansible"
+brew "aria2"
+brew "blueutil"
+brew "imagemagick"
+brew "ffmpeg"
+brew "m-cli"
+brew "nativefier"
+brew "neofetch"
+brew "rclone"
+brew "starship"
+brew "switchaudio-osx"
+brew "tmux"
+brew "wget"
+brew "wireguard-go"
+brew "wireguard-tools"
+brew "zsh-completions"
+brew "zsh-history-substring-search"
+
+## Brew/QuickLook Plugins
+## May need to remove Quarantine:
+## Check attrs: `xattr -r ~/Library/QuickLook`
+## Remove Attributes: `xattr -d -r com.apple.quarantine ~/Library/QuickLook`
+brew "qlcolorcode"
+brew "qlstephen"
+brew "qlmarkdown"
+brew "quicklook-json"
+brew "betterzip"
+brew "qlimagesize"
+brew "apparency"
+brew "quicklookase"
+brew "qlvideo"
+
+
+## Fonts
+cask "font-meslo-for-powerline"
+cask "font-hack-nerd-font"
+
+## Brew Casks
+## 'brew install --cask'
+cask "1password"
+cask "1password-cli"
+cask "alfred"
+cask "arq"
+cask "audio-hijack"
+cask "bartender"
+cask "carbon-copy-cloner"
+cask "discord"
+cask "firefox"
+cask "google-chrome"
+cask "google-chrome-canary"
+cask "hazel"
+cask "iina"
+cask "iterm2"
+cask "imageoptim"
+cask "joplin"
+cask "karabiner-elements"
+cask "keyboard-maestro"
+cask "loopback"
+cask "meetingbar"
+cask "microsoft-edge"
+cask "microsoft-teams"
+cask "mouse-fix"
+cask "nextcloud"
+cask "obs"
+cask "parallels"
+cask "plexamp"
+cask "plex"
+cask "popclip"
+cask "kapitainsky-rclone-browser"
+cask "rectangle"
+cask "spotify"
+cask "soundsource"
+cask "syncthing"
+cask "textexpander"
+cask "transmit"
+cask "visual-studio-code-insiders"
+cask "vlc"
+
+## Mac App Store Apps
+# 'mas install'
+mas "Amphetamine", id: 937984704
+mas "DaisyDisk", id: 411643860
+mas "Deliveries: a package tracker", id: 290986013
+mas "Fantastical - Calendar & Tasks", id: 975937182
+mas "Fiery Feeds", id: 1477373845
+mas "Home Assistant", id: 1099568401
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft Word", id: 462054704
+mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft OneNote", id:784801555
+mas "Microsoft Outlook", id: 985367838
+mas "Name Mangler 3", id: 603637384
+mas "OneDrive", id:823766827
+mas "Paprika Recipe Manager 3", id: 1303222628
+mas "RSS Button for Safari", id: 1437501942
+mas "The Unarchiver", id: 425424353
+mas "WireGuard", id: 1451685025
+mas "xSearch for Safari", id: 1579902068
